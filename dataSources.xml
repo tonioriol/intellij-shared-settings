@@ -1,0 +1,70 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Arbetsgivarguiden Prod Copy" uuid="e80f5d35-54c7-4920-8c6d-be53d5ddaa4a">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://arbetsgivarguiden-dev-sqlserver.database.windows.net/Arbetsgivarguiden_Copy</jdbc-url>
+      <driver-properties>
+        <property name="appName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="arbetsgivarguiden-dev-api" uuid="1e862c99-d202-44fa-bd30-76bf044d1c2f">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://arbetsgivarguiden-dev-sqlserver.database.windows.net/arbetsgivarguiden-dev-api</jdbc-url>
+      <driver-properties>
+        <property name="appName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Almega Toni Dev Test" uuid="49002c30-98cd-4ddb-9a1d-b76c8ffbc4e8">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://almega-toni.database.windows.net:1433;database=almega-dev-test</jdbc-url>
+      <driver-properties>
+        <property name="loginTimeout" value="30" />
+        <property name="trustServerCertificate" value="false" />
+        <property name="encrypt" value="true" />
+        <property name="hostNameInCertificate" value="*.database.windows.net" />
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Almega Toni Copy Prod" uuid="a8347dd0-5318-4e70-8242-01373784b452">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://almega-toni.database.windows.net:1433;database=arbetsgivarguiden_nolog</jdbc-url>
+      <driver-properties>
+        <property name="loginTimeout" value="30" />
+        <property name="trustServerCertificate" value="false" />
+        <property name="encrypt" value="true" />
+        <property name="hostNameInCertificate" value="*.database.windows.net" />
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Almega Toni Copy Dev" uuid="28d54337-b9b7-4173-ad40-07554ee39e0f">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://almega-toni.database.windows.net:1433;database=almega</jdbc-url>
+      <driver-properties>
+        <property name="loginTimeout" value="30" />
+        <property name="trustServerCertificate" value="false" />
+        <property name="encrypt" value="true" />
+        <property name="hostNameInCertificate" value="*.database.windows.net" />
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Almega Local" uuid="d20059d0-0f52-4a2f-89f8-9c8ea5480ec9">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+  </component>
+</application>

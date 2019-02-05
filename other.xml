@@ -1,0 +1,30 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6115214" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileChooser.ShowPath" value="true" />
+    <property name="PLUGIN_FILTER" value="git flow" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="RD.Init.Cfg.2" value="true" />
+    <property name="RD.Init.DialogShown.Ide" value="true" />
+    <property name="SettingsSearchHistory" value="find in path&#10;entity&#10;plug" />
+    <property name="TrendingPluginsSearchHistory" value="git flow" />
+    <property name="database.data.extractors.single.file" value="true" />
+    <property name="database.data.extractors.sql.create.table" value="true" />
+    <property name="evlsprt3.182" value="11" />
+    <property name="evlsprt3.183" value="17" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop/almega_dev_copy.sql&#10;/Users/tr0n/Desktop/almega_dbo_Account.sql&#10;/Users/tr0n/Desktop&#10;/Users/tr0n/Desktop/webstorm_settings.jar&#10;/Users/tr0n/Desktop/Material Oceanic.icls&#10;/Users/tr0n/Code/arbetsgivarguiden-api" />
+    <property name="file.gist.reindex.count" value="20" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="ignoreUltimateEdition" value="true" />
+    <property name="last_open_solution_path" value="$USER_HOME$/Code/arbetsgivarguiden-api" />
+    <property name="last_selected_template" value="Library|Xamarin" />
+    <property name="settings.code.style.selected.tab.C#" value="Naming" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.2.1" />
+  </component>
+</application>
