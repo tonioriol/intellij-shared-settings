@@ -1,69 +1,67 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Arbetsgivarguiden Prod Copy" uuid="e80f5d35-54c7-4920-8c6d-be53d5ddaa4a">
-      <driver-ref>sqlserver.jtds</driver-ref>
+    <data-source source="LOCAL" name="Twitch Staging" uuid="9488f8b9-c772-4d56-82ca-403b688b5be8">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://arbetsgivarguiden-dev-sqlserver.database.windows.net/Arbetsgivarguiden_Copy</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-79-125-27-180.eu-west-1.compute.amazonaws.com:5432/d84a80e2e4v5dp</jdbc-url>
       <driver-properties>
-        <property name="appName" value="DataGrip" />
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="arbetsgivarguiden-dev-api" uuid="1e862c99-d202-44fa-bd30-76bf044d1c2f">
-      <driver-ref>sqlserver.jtds</driver-ref>
+    <data-source source="LOCAL" name="Twitch Production" read-only="true" uuid="7e5dffbc-5728-4790-bc6d-70fdd2f64dc1">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://arbetsgivarguiden-dev-sqlserver.database.windows.net/arbetsgivarguiden-dev-api</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-34-246-108-90.eu-west-1.compute.amazonaws.com:5432/ddqhbea87he3jb</jdbc-url>
       <driver-properties>
-        <property name="appName" value="DataGrip" />
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="Almega Toni Dev Test" uuid="49002c30-98cd-4ddb-9a1d-b76c8ffbc4e8">
-      <driver-ref>azure.ms</driver-ref>
+    <data-source source="LOCAL" name="Hyunday Production" read-only="true" uuid="a2c5f63a-713d-45d0-915b-b73944c2329e">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://almega-toni.database.windows.net:1433;database=almega-dev-test</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-52-213-209-237.eu-west-1.compute.amazonaws.com:5432/da9tbapu63eh35</jdbc-url>
       <driver-properties>
-        <property name="loginTimeout" value="30" />
-        <property name="trustServerCertificate" value="false" />
-        <property name="encrypt" value="true" />
-        <property name="hostNameInCertificate" value="*.database.windows.net" />
-        <property name="applicationName" value="DataGrip" />
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="Almega Toni Copy Prod" uuid="a8347dd0-5318-4e70-8242-01373784b452">
-      <driver-ref>azure.ms</driver-ref>
+    <data-source source="LOCAL" name="Hyundai Staging" uuid="8a514bec-bcac-4cf2-94c8-0ace3de91df9">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://almega-toni.database.windows.net:1433;database=arbetsgivarguiden_nolog</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-217-240-205.eu-west-1.compute.amazonaws.com:5432/d8ppak2onetgo9</jdbc-url>
       <driver-properties>
-        <property name="loginTimeout" value="30" />
-        <property name="trustServerCertificate" value="false" />
-        <property name="encrypt" value="true" />
-        <property name="hostNameInCertificate" value="*.database.windows.net" />
-        <property name="applicationName" value="DataGrip" />
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="Almega Toni Copy Dev" uuid="28d54337-b9b7-4173-ad40-07554ee39e0f">
-      <driver-ref>azure.ms</driver-ref>
+    <data-source source="LOCAL" name="Min Hyundai Prod" read-only="true" uuid="1c52eb9c-0047-48aa-9eac-dacef19f611b">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://almega-toni.database.windows.net:1433;database=almega</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-52-51-157-238.eu-west-1.compute.amazonaws.com:5432/d1k8utd44gsu2l</jdbc-url>
       <driver-properties>
-        <property name="loginTimeout" value="30" />
-        <property name="trustServerCertificate" value="false" />
-        <property name="encrypt" value="true" />
-        <property name="hostNameInCertificate" value="*.database.windows.net" />
-        <property name="applicationName" value="DataGrip" />
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="Almega Local" uuid="d20059d0-0f52-4a2f-89f8-9c8ea5480ec9">
-      <driver-ref>sqlserver.ms</driver-ref>
+    <data-source source="LOCAL" name="MySQL Local" uuid="dad8734b-bcdb-453f-ba42-5602ab9847fd">
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <driver-properties>
-        <property name="applicationName" value="DataGrip" />
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
   </component>

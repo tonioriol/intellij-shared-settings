@@ -1,80 +1,56 @@
 <application>
   <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v11.1.0/bin/node">
-      <version-cache version="11.1.0" last-modified="1541147791000" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/11.1.0/bin/node">
-      <version-cache version="11.1.0" last-modified="1541686747000" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="11.1.0" last-modified="1541686747000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.15.0/bin/node">
-      <version-cache version="10.15.0" last-modified="1545801843000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.12.0/bin/node">
-      <version-cache version="10.12.0" last-modified="1539199020000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.7.0/bin/node">
-      <version-cache version="10.7.0" last-modified="1531917315000" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/10.7.0/bin/node">
-      <version-cache version="10.7.0" last-modified="1532084456000" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/10.4.1/bin/node">
-      <version-cache last-modified="1529078199000" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/9.11.1/bin/node">
-      <version-cache last-modified="1523973163000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v9.7.0/bin/node">
-      <version-cache version="9.7.0" last-modified="1519895839000" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/9.4.0/bin/node">
-      <version-cache last-modified="1517235037000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.8.1/bin/node">
-      <version-cache version="8.8.1" last-modified="1508962036000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.0.0/bin/node">
-      <version-cache version="8.0.0" last-modified="1496165247000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.14.3/bin/node">
-      <version-cache version="6.14.3" last-modified="1528768471000" />
-    </local-interpreter>
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.6.0/bin/node">
-      <version-cache version="4.6.0" last-modified="1475020079000" />
-    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v11.1.0/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/11.1.0/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.12.0/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.7.0/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/10.7.0/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/10.4.1/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/9.11.1/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/9.4.0/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.8.1/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.0.0/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.14.3/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.6.0/bin/node" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ColorChooser.RecentColors" value="68-68-68-255" />
-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.36577946" />
-    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.8450704" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-2.2.10/bin/ruby:BASE_20" value="0.2.3.beta2" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-2.2.10/bin/ruby:IDE" value="0.7.0.beta7" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.5349922" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.9086379" />
     <property name="CommittedChanges.SplitterProportions.0" value="700" />
     <property name="CommittedChanges.SplitterProportions.1" value="500" />
     <property name="Copy.OpenInEditor" value="true" />
-    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="Darcula.SavedEditorTheme" value="_@user_Material Oceanic" />
     <property name="DiffRequestProcessor.BottomComponentSplitter" value="0.94461226" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
-    <property name="InstalledPluginsSearchHistory" value="git" />
-    <property name="MTBorderPopup" value="true" />
-    <property name="MTTabsHeight" value="42" />
-    <property name="PLUGIN_FILTER" value="styled components" />
-    <property name="SettingsSearchHistory" value="node&#10;git&#10;Tab,Indent&#10;surround selection&#10;selection" />
-    <property name="TrendingPluginsSearchHistory" value="git flow&#10;pretti" />
-    <property name="Vcs.Log.Text.Filter.History" value="merge" />
-    <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
-    <property name="WebStorm.enableSmartQuotes" value="true" />
-    <property name="WebStorm.initialConfigurationShown" value="true" />
-    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="OCEANIC" />
-    <property name="evlsprt3.183" value="13" />
-    <property name="export.settings.path" value="$USER_HOME$/Desktop/settings.zip" />
-    <property name="file.gist.reindex.count" value="130921" />
-    <property name="js.rename.search.for.text.occurrences" value="false" />
-    <property name="js.rename.search.in.comments" value="false" />
-    <property name="settings.code.style.selected.tab.HTML" value="Other" />
-    <property name="settings.code.style.selected.tab.JavaScript" value="Tabs and Indents" />
+    <property name="InstalledPluginsSearchHistory" value="git&#10;git flow&#10;liquid" />
+    <property name="KEYMAP" value="book" />
+    <property name="LayoutCode.codeCleanup" value="true" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="Ruby.initialConfigurationShown" value="true" />
+    <property name="RubyMine.full.reindex.required" value="1" />
+    <property name="RubyTestUnitSupport.hidePassedTests" value="false" />
+    <property name="RubyTestUnitSupport.openFailureLine" value="false" />
+    <property name="SettingsSearchHistory" value="rubo&#10;find in path&#10;javasc&#10;database&#10;repo" />
+    <property name="SplitFileEditor.Proportion" value="0.53690475" />
+    <property name="TextEditorWithPreview.SplitterProportionKey" value="0.8383459" />
+    <property name="TrendingPluginsSearchHistory" value="git flow&#10;gitflow&#10;git&#10;arb" />
+    <property name="Vcs.Log.Text.Filter.History" value="newsletter&#10;62bec308&#10;e4081a4a&#10;b0b69a80&#10;aura" />
+    <property name="Vcs.Push.Splitter.Proportion" value="0.67753625" />
+    <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
+    <property name="evlsprt3.183" value="10" />
+    <property name="export.settings.marked" value="colors.scheme.xml|colors|keymap.xml|keymaps|" />
+    <property name="file.gist.reindex.count" value="1630" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="find.popup.splitter" value="0.35016027" />
+    <property name="selected.color.option.type" value="RUBY_SEMICOLON" />
+    <property name="settings.code.style.selected.tab.JavaScript" value="Punctuation" />
+    <property name="settings.code.style.selected.tab.ruby" value="Other" />
     <property name="ts.lib.d.ts.version" value="3.2.1" />
+    <property name="vcs.history.diff.splitter.proportion" value="0.32539064" />
+    <property name="vcs.log.details.splitter.proportion" value="0.75797874" />
   </component>
 </application>
