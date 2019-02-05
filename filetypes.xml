@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="update-cache" type="PLAIN_TEXT" />
+      <mapping pattern="Buttons" type="PLAIN_TEXT" />
+      <mapping pattern="HamburgerButton" type="PLAIN_TEXT" />
+      <mapping pattern="CustomDrawerNavigator" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,30 +1,80 @@
 <application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v11.1.0/bin/node">
+      <version-cache version="11.1.0" last-modified="1541147791000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/11.1.0/bin/node">
+      <version-cache version="11.1.0" last-modified="1541686747000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="11.1.0" last-modified="1541686747000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.15.0/bin/node">
+      <version-cache version="10.15.0" last-modified="1545801843000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.12.0/bin/node">
+      <version-cache version="10.12.0" last-modified="1539199020000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.7.0/bin/node">
+      <version-cache version="10.7.0" last-modified="1531917315000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/10.7.0/bin/node">
+      <version-cache version="10.7.0" last-modified="1532084456000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/10.4.1/bin/node">
+      <version-cache last-modified="1529078199000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/9.11.1/bin/node">
+      <version-cache last-modified="1523973163000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v9.7.0/bin/node">
+      <version-cache version="9.7.0" last-modified="1519895839000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/9.4.0/bin/node">
+      <version-cache last-modified="1517235037000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.8.1/bin/node">
+      <version-cache version="8.8.1" last-modified="1508962036000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.0.0/bin/node">
+      <version-cache version="8.0.0" last-modified="1496165247000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.14.3/bin/node">
+      <version-cache version="6.14.3" last-modified="1528768471000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.6.0/bin/node">
+      <version-cache version="4.6.0" last-modified="1475020079000" />
+    </local-interpreter>
+  </component>
   <component name="PropertiesComponent">
-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6115214" />
+    <property name="ColorChooser.RecentColors" value="68-68-68-255" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.36577946" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.8450704" />
     <property name="CommittedChanges.SplitterProportions.0" value="700" />
     <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="Copy.OpenInEditor" value="true" />
     <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="DiffRequestProcessor.BottomComponentSplitter" value="0.94461226" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
-    <property name="FileChooser.ShowPath" value="true" />
-    <property name="PLUGIN_FILTER" value="git flow" />
-    <property name="PluginConfigurable.selectionTab" value="1" />
-    <property name="RD.Init.Cfg.2" value="true" />
-    <property name="RD.Init.DialogShown.Ide" value="true" />
-    <property name="SettingsSearchHistory" value="find in path&#10;entity&#10;plug" />
-    <property name="TrendingPluginsSearchHistory" value="git flow" />
-    <property name="database.data.extractors.single.file" value="true" />
-    <property name="database.data.extractors.sql.create.table" value="true" />
-    <property name="evlsprt3.182" value="11" />
-    <property name="evlsprt3.183" value="17" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop/almega_dev_copy.sql&#10;/Users/tr0n/Desktop/almega_dbo_Account.sql&#10;/Users/tr0n/Desktop&#10;/Users/tr0n/Desktop/webstorm_settings.jar&#10;/Users/tr0n/Desktop/Material Oceanic.icls&#10;/Users/tr0n/Code/arbetsgivarguiden-api" />
-    <property name="file.gist.reindex.count" value="20" />
-    <property name="fileTypeChangedCounter" value="3" />
-    <property name="ignoreUltimateEdition" value="true" />
-    <property name="last_open_solution_path" value="$USER_HOME$/Code/arbetsgivarguiden-api" />
-    <property name="last_selected_template" value="Library|Xamarin" />
-    <property name="settings.code.style.selected.tab.C#" value="Naming" />
-    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="git" />
+    <property name="MTBorderPopup" value="true" />
+    <property name="MTTabsHeight" value="42" />
+    <property name="PLUGIN_FILTER" value="styled components" />
+    <property name="SettingsSearchHistory" value="node&#10;git&#10;Tab,Indent&#10;surround selection&#10;selection" />
+    <property name="TrendingPluginsSearchHistory" value="git flow&#10;pretti" />
+    <property name="Vcs.Log.Text.Filter.History" value="merge" />
+    <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
+    <property name="WebStorm.enableSmartQuotes" value="true" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="OCEANIC" />
+    <property name="evlsprt3.183" value="13" />
+    <property name="export.settings.path" value="$USER_HOME$/Desktop/settings.zip" />
+    <property name="file.gist.reindex.count" value="130921" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="false" />
+    <property name="settings.code.style.selected.tab.HTML" value="Other" />
+    <property name="settings.code.style.selected.tab.JavaScript" value="Tabs and Indents" />
     <property name="ts.lib.d.ts.version" value="3.2.1" />
   </component>
 </application>
